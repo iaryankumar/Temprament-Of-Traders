@@ -27,7 +27,7 @@ const Home = () => {
       </div>
             </header>
             {/* playlist section */}
-            <section className="bg-[white] dark:bg-gray-900 sm:py-12 py-4">
+            <section className="bg-[white] dark:bg-gray-900 sm:pb-28 pt-7">
                 <div className="container px-6 sm:px-5 sm:pt-8 pt-3 sm:pb-16 pb-8 mx-auto">
                 <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-4xl dark:text-white">Suggested <span className='text-blue-700'> Playlist</span></h1>
                 </div>
