@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import 'tailwindcss';
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-left {
+  animation: slideInLeft 0.4s ease-out forwards;
+}
+
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+.slide-out-left {
+  animation: slideOutLeft 0.4s ease-in forwards;
+}
+
+@theme {
+    --color-primary: #faf9f9;
+    --color-primary2: #0b0a10;
+    --font-primary: Roboto, serif;
+    --font-rubik: Rubik, serif;
+    --font-secondary: "PT Serif", serif;
+    --font-mont: Montserrat, serif;
+    --font-rt: Righteous, serif;
+}
+
+
+@media (max-width: 365px) {
+  .heading {
+    font-size: 48px; 
+  }
+}
+@media (max-width: 290px) {
+  .heading {
+    font-size: 100%; 
+  }
+}
