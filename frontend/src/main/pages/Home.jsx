@@ -34,7 +34,7 @@ const Home = () => {
     return (
         <>
             {/* Navbar */}
-            <Navbar hero={hero} about={about} playlist={playlist} reviews={reviews} />
+            <Navbar hero={hero} about={about} playlist={playlist} reviews={reviews} page={'home'} />
             {/* Navbar */}
 
             <div ref={heroScroll}>

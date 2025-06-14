@@ -16,7 +16,7 @@ const Hero = () => {
                     <p className='md:w-[80%] sm:w-[70%] w-full mt-6 text-gray-500'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente eveniet ex voluptates odit aut non mollitia repellendus vitae obcaecati quasi ipsum veniam.
                     </p>
-                    <a href='https://www.youtube.com/@TemperamentOfTraders' target='_blank' className='mt-12 bg-blue-600 hover:bg-blue-500 font-nav sm:h-[45px] h-[55px] sm:w-[300px] w-full rounded flex items-center justify-center gap-2 cursor-pointer'>
+                    <a href='https://www.youtube.com/@TemperamentOfTraders/playlists' target='_blank' className='mt-12 bg-blue-600 hover:bg-blue-500 font-nav sm:h-[45px] h-[55px] sm:w-[300px] w-full rounded flex items-center justify-center gap-2 cursor-pointer'>
                          <span><SiYoutubegaming className='text-xl' /></span>
                         <span>My Playlists</span>
                     </a>
